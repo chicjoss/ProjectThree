@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
 
+html {
+  padding-left: 15%;
+  padding-right: 15%;
+}
 
 body {
   background-color:LavenderBlush;
