@@ -50,3 +50,9 @@ h1,  p{
  font-family: 'Oswald', sans-serif;
 
 }
+#education, #experience, #skills, {
+     font-family: 'Dosis', sans-serif;
+     text-align: left;
+     text-decoration: underline overline;
+     text-decoration-color: #ff808e;
+}
