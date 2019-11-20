@@ -1,1 +1,52 @@
+body 
+{
+  background-color: pink;
+     background-size:cover;
+     text-align: center;
+     margin:15px;
+  
+}
 
+
+#main-navbar{
+  background-color: #DDA0DD;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+#navbar-container ul{
+  position: relative;
+  float: left;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  right: 50%;
+}
+
+#navbar-container{
+  position: relative;
+  float: left;
+  left: 50%;
+  display: block;
+}
+
+#onpage{
+  text-decoration: underline overline;
+  color: #9932CC;
+}
+
+#navbar-container ul li{
+  float: left;
+  padding: 30px 60px;
+}
+
+#navbar-container ul li a{
+  color: #778899;
+  text-decoration: none;
+}
+h1,  p{
+  font-family: "font-family: 'Oswald', sans-serif;
+
+}
