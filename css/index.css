@@ -24,7 +24,7 @@
 
 #onpage{
   text-decoration: underline overline;
-  color: #fff;
+  color: #9932CC	;
 }
 
 #navbar-container ul li{
@@ -33,6 +33,6 @@
 }
 
 #navbar-container ul li a{
-  color: #fff;
+  color: #778899;
   text-decoration: none;
 }
