@@ -7,11 +7,11 @@ html {
 
 body {
   background-color:LavenderBlush;
-	 font-family:Inconsolata;
+  font-family:Inconsolata;
 }
 h1{
-color:Indigo;
-	
+  color:Indigo;
+
 }
 strong{
   color:black;
@@ -22,17 +22,17 @@ ul li {
 
 h1,h2,h3,h4,p {
 
-    color: Grey;
-    font-family:Inconsolata;
+  color: Grey;
+  font-family:Inconsolata;
 }
 img {
   max-width:100%;
-    height:auto;
+  height:auto;
 }
- embed{
+embed{
 	padding: 30px 120px 30px 650px;
 } 
- #nav {
+#nav {
   text-align: center;
   height: 3.2em;
   line-height: 3.2em;
@@ -42,14 +42,38 @@ img {
   margin: 0 0 30px;
 }
 .nav li{
-    display:inline;
+  display:inline;
+}
+.nav a{
+  display:inline-block;
+  color: DarkGrey;
+  font-family: Inconsolata;
+  padding: 10px;
+}
+.index h1{
+  text-align: center;
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    padding-right: 13.75%;
+    padding-left: 13.75%;
   }
-  .nav a{
-    display:inline-block;
-      color: DarkGrey;
-    font-family: Inconsolata;
-    padding: 10px;
+  img,
+  video,
+  audio {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
   }
-  .index h1{
-    text-align: center;
+}
+
+@media screen and (min-width: 640px) {
+  img,
+  video,
+  audio {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
   }
+}
