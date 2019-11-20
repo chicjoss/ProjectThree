@@ -23,11 +23,15 @@
 //   });
 
 // }
+$.noConflict();
+
 jQuery(function($) {
+
+  $('video').on('click', function() {
+    this.paused ? this.play() : this.pause();
+  });
+
   var github_url = 'https://api.github.com/repos/chicjoss/ProjectThree/commits?per_page=1';
-
-
-
     $.get(github_url, function(data) {
     var commit = {};
     data = data[0];
