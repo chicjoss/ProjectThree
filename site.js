@@ -47,7 +47,7 @@ jQuery(function($) {
     $('#foot').append(
       '<p>' +
       'Last Update(GitHub): <a href=' + data.html_url + '>' +
-      data.commit.message.substring(0, data.commit.message.length - 1) + '</a>' +
+      data.commit.message.substring(0, data.commit.message.length) + '</a>' +
       ' on <time datetime="' + commit.stamp + '">' +
       commit.time_string + '</time>. ' +
       '</p>'
