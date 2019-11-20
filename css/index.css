@@ -1,5 +1,5 @@
 #main-navbar{
-  background-color: ;
+  background-color: blue;
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -20,6 +20,11 @@
   float: left;
   left: 50%;
   display: block;
+}
+
+#onpage{
+  text-decoration: underline overline;
+  color: #fff;
 }
 
 #navbar-container ul li{
