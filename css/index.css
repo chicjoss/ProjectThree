@@ -24,8 +24,9 @@ nav#navbar ul,li{
 }
 nav#navigation ul li a {
      display:inline-block;
-     padding:15px;
+     padding:25px;
      color:gray;
+	text-decoration: none;
      background-color:#2b093a;
      color:#16041e;
      font-weight: bold;
@@ -44,7 +45,7 @@ img{
     width: 300px;
     margin-left: 25px;
 }
-h1{
+h2{
 color:320e3e;
 font-size: 25px;
 margin: 5px
