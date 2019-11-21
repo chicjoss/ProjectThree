@@ -5,7 +5,7 @@ function initMap() {
     zoom: 18
   });
 	
-var image = "photo/pin.png";
+var image = "photos/pin.png";
   var spainMarker = new google.maps.Marker({
     position: {lat: 40.960607,len: -5.665813},
     map: map,
