@@ -11,18 +11,5 @@ var image = "photo/pin.png";
     map: map,
     icon: image
   });
-	
-var image = "photo/pin.png";
-  var spainMarker = new google.maps.Marker({
-    position: {lat:40.962887, len:-5.665780},
-    map: map,
-    icon: image
-  });
-	var image = "photo/pin.png";
-  	var spainMarker = new google.maps.Marker({
-    	position: {lat:40.958522,len: -5.666319},
-	map: map,
-    	icon: image 
-	});
 }
 window.addEventListener('onload',initMap);
