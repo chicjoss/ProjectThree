@@ -1,6 +1,6 @@
 body 
 {
-  background-color: #FFE4E1;
+  background-color: azure
      background-size:cover;
      text-align: left;
      margin:15px;
@@ -43,7 +43,7 @@ body
 }
 
 #navbar-container ul li a{
-  color: #778899;
+  color: #7white;
   text-decoration: none;
 }
 h1,  p{
