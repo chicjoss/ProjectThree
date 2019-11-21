@@ -56,9 +56,14 @@ h1,  p{
 #map {
         height: 100%;
       }
-      /* Optional: Makes the sample page fill the window. */
       html, body {
         height: 100%;
         margin: 0;
         padding: 0;
       }
+#canvas {
+			width: 800px;
+			height: 600px;
+			background-color: #D1B5CD;
+			margin: 40px auto;
+		}
