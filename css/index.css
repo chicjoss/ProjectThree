@@ -52,18 +52,9 @@ h1,  p{
   font-family: "Courier New", Courier;
 
 }
-
 #map {
-        height: 100%;
-      }
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-#map {
-			width: 800px;
-			height: 600px;
-			background-color: #D1B5CD;
-			margin: 40px auto;
+	width: 800px;
+	height: 600px;
+	background-color: #DDA0DD;
+	argin: 40px auto;
 		}
