@@ -1,34 +1,28 @@
-var map() {
- var jh = document.getElementById('map');
-	var mapLocation = new google.maps.LatLng(39.855191, -4.030019);
-	var mapOptions = {
-		center: myLocation,
-		zoom: 22,
-		mapTypeId: google.maps.MapTypeId.SATELLITE,
-		mapTypeControlOptions: {
-			position: google.maps.ControlPosition.BOTTOM_CENTER
-		}
-    
-    var myMap = new google.maps.Map(jh, mapOptions);
-    var marker = new google.maps.Marker({
-		position: myLocation,
-		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
-		icon: 'photo/pin.png'
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 40.967070,  lng:-5.663658, },
+    zoom: 18
+  });
+	
+var image = "photo/pin.png";
+  var spainMarker = new google.maps.Marker({
+    position: {lat: 40.960607,len: -5.665813},
+    map: map,
+    icon: image
+  });
+	
+var image = "photo/pin.png";
+  var spainMarker = new google.maps.Marker({
+    position: {lat:40.962887, len:-5.665780},
+    map: map,
+    icon: image
+  });
+	var image = "photo/pin.png";
+  	var spainMarker = new google.maps.Marker({
+    	position: {lat:40.958522,len: -5.666319},
+	map: map,
+    	icon: image 
 	});
-var contentString = '<h1>Toeldo, Espana</h1><p> This is Toledo!</p>';
-
-var infowindow = new google.maps.InfoWindow({
-      content: contentString
-  	});
-  google.maps.event.addListener(marker, 'mouseover', function() {
-    	infowindow.open(myMap, marker);
-  	});
-
 }
-google.maps.event.addDomListener(window, 'load', init);
-
-
-
-  
-  
+window.addEventListener('onload',initMap);
