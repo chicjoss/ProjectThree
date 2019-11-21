@@ -44,6 +44,8 @@ body
 
 #navbar-container ul li a{
   color: white;
+  font-size: 18px;
+	font-weight: bold;
   text-decoration: none;
 }
 h1,  p{
