@@ -116,6 +116,10 @@
     font-size: 20px;
 
 }
+#resume h2 {
+ font-family: 'Fira Sans Condensed', sans-serif;
+  color:#DarkSlateGrey
+    font-size: 25px;
 #resume p {
  font-family: 'Comfortaa', cursive;
   color:#808080;
