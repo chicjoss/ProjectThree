@@ -121,13 +121,13 @@
   color:#DarkSlateGrey
     font-size: 25px;
 #resume p {
- font-family: 'Comfortaa', cursive;
+ font-family: 'Inconsolata', monospace
   color:#808080;
     font-size: 12px;
 
 }
 #education, #experience, #skills {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Inconsolata', monospace
      text-align: left;
   }
 /********************************************************************OTHER.CSS**********************************************************************************************/
