@@ -52,13 +52,13 @@
 }
 #aboutme h1{
  font-family: 'Inconsolata', monospace;
-  color:#909499
+  color:#909499;
     font-size: 40 px;
 }
 #aboutme p {
   
    font-family: 'Inconsolata', monospace;
-  color:808080;
+  color:696969;
     font-size: 16 px;
 }
 /**************************************************************************RESUME.CSS**********************************************************************************************/
