@@ -62,17 +62,14 @@
     font-size: 16 px;
 }
 /**************************************************************************RESUME.CSS****************************************/
-body 
-{
+body{
   background-color:#E6E6FA;
-     background-size:cover;
-     text-align: left;
-     margin:25px;
-  
+  background-size:cover;
+  text-align: left;
+  margin:25px;
 }
 
-
-#main-navbar{
+/*#main-navbar{
   background-color: #DDA0DD;
   overflow: hidden;
   width: 100%;
@@ -94,14 +91,14 @@ body
   float: left;
   left: 50%;
   display: block;
-}
+}*/
 
 #onpage{
   text-decoration: underline overline;
   color: #9932CC;
 }
 
-#navbar-container ul li{
+/*#navbar-container ul li{
   float: left;
   padding: 30px 60px;
 }
@@ -111,7 +108,7 @@ body
   font-size: 25px;
 	font-weight: bold;
   text-decoration: none;
-}
+}*/
 h1,  p{
  font-family: 'Oswald', sans-serif;
 
@@ -121,15 +118,6 @@ h1,  p{
      text-align: left;
 
 }
- #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
 /********************************************************************OTHER.CSS**********************************************************************************************/
 #vacation {
   background-color:#e3e3e3;
