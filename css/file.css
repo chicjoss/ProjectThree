@@ -63,7 +63,7 @@
 }
 /**************************************************************************RESUME.CSS****************************************/
 body{
-  background-color:#E6E6FA;
+  background-color: #F0F8FF;
   background-size:cover;
   text-align: left;
   margin:25px;
@@ -120,10 +120,10 @@ h1,  p{
 }
 /********************************************************************OTHER.CSS**********************************************************************************************/
 #vacation {
-  background-color:#e3e3e3;
-     background-size:auto;
-     text-align: left;
-     margin:25px;
+  background-color: #F0F8FF;
+  background-size:auto;
+  text-align: left;
+  margin:25px;
 }
   
   #map {
@@ -134,11 +134,11 @@ h1,  p{
                 }
 /********************************************************************OTHER.CSS**********************************************************************************************/
 #photos {
-  background-color:#d4ebff;
-     background-size:auto;
-     text-align: left;
-     margin:25px;
-  }
+  background-color:#E6E6FA;
+  background-size:auto;
+  text-align: left;
+  margin:25px;
+}
   
   div#slideshow{
   max-width:100%;
