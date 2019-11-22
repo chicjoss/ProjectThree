@@ -19,7 +19,6 @@ function initMap() {
   });
 }
 google.maps.event.addDomListener(window,'load',initMap);
-window.addEventListener('onload',initMap);
 
 /*Added a Javascript slideshow for fun*/
 var start=0;
