@@ -27,7 +27,13 @@
   left: 50%;
   display: block;
 }
-
+ img{
+     width: 30%;
+     height: 30%;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+}
 #onpage{
   text-decoration: underline overline;
   color: #9932CC;
@@ -106,11 +112,11 @@ h1,  p{
   text-decoration: none;
 }
 h1,  p{
- font-family: 'Oswald', sans-serif;
+font-family: 'Baskervville', serif;
 
 }
 #education, #experience, #skills {
-     font-family: 'Oswald', sans-serif,arial;
+      font-family: 'Baskervville', serif;;
      text-align: left;
 
 }
