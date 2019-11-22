@@ -127,6 +127,8 @@
      text-align: left;
   }
 /********************************************************************OTHER.CSS**********************************************************************************************/
+
+
 #main-navbar{
   background-color: #DDA0DD;
   overflow: hidden;
@@ -173,27 +175,15 @@
         font-weight: bold;
   text-decoration: none;
 }
-#aboutme h1{
- font-family: 'Inconsolata', monospace;
-  color:#909499;
-    font-size: 40 px;
-}
-#aboutme p {
-  
-   font-family: 'Inconsolata', monospace;
-  color:MidnightBlue
-    font-size: 20 px;
-/**************************************************************************RESUME.CSS**********************************************************************************************/
-#resume
-{
-  background-color:#E6E6FA;
+
+
+  /********************************************************************OTHER.CSS**********************************************************************************************/
+#vacation {
+  background-color:#F0F8FF;
      background-size:cover;
      text-align: left;
      margin:25px;
-
 }
-
-
 #main-navbar{
   background-color: #DDA0DD;
   overflow: hidden;
@@ -233,12 +223,6 @@
   font-size: 25px;
         font-weight: bold;
   text-decoration: none;
-}
-#vacation {
-  background-color:#F0F8FF;
-     background-size:cover;
-     text-align: left;
-     margin:25px;
 }
   
   #map {
