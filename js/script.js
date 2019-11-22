@@ -10,11 +10,15 @@ function initMap() {
     size:(5,5),
     icon:{size: new google.maps.Size(50,50),scaledSize: new google.maps.Size(50,50),url:"media/pin.png"},
     draggable:true,
-    title:"Salamanca, Spain",
     position:{lat:40.967070, lng:-5.663658},
     animation:google.maps.Animation.BOUNCE,
+    title:"Salamanca, Spain"
+  });
+  marker.addListenre('click',function(){
+    Infowindow.open(map,marker);
   });
 }
+google.maps.event.addDomListener(window,'load',initMap);
 window.addEventListener('onload',initMap);
 
 /*Added a Javascript slideshow for fun*/
