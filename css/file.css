@@ -54,6 +54,12 @@ background-color:#F0F8FF;
         font-weight: bold;
   text-decoration: none;
 }
+#navbar-container a:hover{
+  background-color:black;
+}
+#navbar-container a.active{
+  background-color:#FF00FF;
+}
 #aboutme h1{
  font-family: 'Inconsolata', monospace;
   color:#909499;
@@ -159,6 +165,10 @@ h1,  p{
   margin-right:auto;
   display:inline-block;
 }
-@media screen and (min-width:768ppx){
+@media screen and (min-width:768px){
   /*add code*/
+  #slideshow{
+    width:1000px;
+    height:400px;
+  }
 }
