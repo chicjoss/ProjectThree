@@ -17,7 +17,7 @@ function initMap() {
   mapOptions);
 
  Overlay = new google.maps.GroundOverlay(
-  'media/sala',
+  'media/sala.jpeg',
   imageBounds);
  Overlay.setMap(map);
  }
