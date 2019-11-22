@@ -20,7 +20,7 @@ function initMap() {
   'media/sala.jpeg',
   imageBounds);
  Overlay.setMap(map);
- }
+ });
 }
 window.addEventListener('onload',initMap);
 
