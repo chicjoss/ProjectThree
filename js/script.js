@@ -13,6 +13,10 @@ function initMap() {
     animation:google.maps.Animation.BOUNCE,
     title:"Salamanca, Spain",
   });
+  var infowindow=new google.maps.InfoWindow({content:"Salamanca, Spain"});
+spainMarker.addListener('click',function(){
+  infowindow.open(map,spainMarker);
+});
 }
 window.addEventListener('onload',initMap);
 
@@ -30,3 +34,5 @@ function slideshow(){
   grab_html_element[start-1].style.display="block";
   setTimeout(slideshow,1000);
 }
+/*InfoWindow*/
+
