@@ -13,14 +13,6 @@ function initMap() {
     position:{lat:40.967070, lng:-5.663658},
     animation:google.maps.Animation.BOUNCE,
   });
- var map = new google.maps.Map(document.getElementById('map'),
-  mapOptions);
-
- Overlay = new google.maps.GroundOverlay(
-  'media/sala.jpeg',
-  imageBounds);
- Overlay.setMap(map);
- });
 }
 window.addEventListener('onload',initMap);
 
