@@ -1,11 +1,11 @@
 #aboutme{
-  background-color: F0F8FF;
+  background-color: #F0F8FF;
      background-size:cover;
      text-align:left;
      margin:25px;
 }
 #main-navbar{
-  background-color: #DDA0DD;
+  background-color: #245c8d;
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -63,7 +63,7 @@
 }
 /**************************************************************************RESUME.CSS**********************************************************************************************/
 #resume{
-  background-color:#E6E6FA;
+  background-color:#c0ccd6;
      background-size:cover;
      text-align: left;
      margin:25px;
@@ -71,7 +71,7 @@
 
 
 #main-navbar{
-  background-color: #DDA0DD;
+  background-color: #245c8d;
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -131,66 +131,15 @@
   font-family: 'Inconsolata', monospace
      text-align: left;
   }
-/********************************************************************OTHER.CSS**********************************************************************************************/
-
-
-#main-navbar{
-  background-color: #DDA0DD;
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
-
-#navbar-container ul{
-  position: relative;
-  float: left;
-  display: block;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  right: 50%;
-}
-
-#navbar-container{
-  position: relative;
-  float: left;
-  left: 50%;
-  display: block;
-}
- img{
-     width: 30%;
-     height: 30%;
-     display: block;
-     margin-right: auto;
-     margin-left: auto;
-}
-#onpage{
-  text-decoration: underline overline;
-  color: #9932CC;
-}
-
-#navbar-container ul li{
-  float: left;
-  padding: 30px 60px;
-}
-
-#navbar-container ul li a{
-  color: white;
-  font-size: 25px;
-        font-weight: bold;
-  text-decoration: none;
-}
-
-
   /********************************************************************OTHER.CSS**********************************************************************************************/
 #vacation {
-  background-color:#F0F8FF;
+  background-color:#e3e3e3;
      background-size:cover;
      text-align: left;
      margin:25px;
 }
 #main-navbar{
-  background-color: #DDA0DD;
+  background-color: #245c8d;
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -238,12 +187,52 @@
                 }
 /********************************************************************OTHER.CSS**********************************************************************************************/
 #photos {
-  background-color:#E6E6FA;
+  background-color:#d4ebff;
      background-size:cover;
      text-align: left;
      margin:25px;
   }
   
+#main-navbar{
+  background-color: #245c8d;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+#navbar-container ul{
+  position: relative;
+  float: left;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  right: 50%;
+}
+
+#navbar-container{
+  position: relative;
+  float: left;
+  left: 50%;
+  display: block;
+}
+
+#onpage{
+  text-decoration: underline overline;
+  color: #9932CC;
+}
+
+#navbar-container ul li{
+  float: left;
+  padding: 30px 60px;
+}
+
+#navbar-container ul li a{
+  color: white;
+  font-size: 25px;
+        font-weight: bold;
+  text-decoration: none;
+}
   div#slideshow{
   max-width:100%;
   max-height:100%;
