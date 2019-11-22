@@ -28,5 +28,5 @@ function slideshow(){
   start++;
   if(start>grab_html_element.length){start=1}
   grab_html_element[start-1].style.display="block";
-  setTimeout(slideshow,5000);
+  setTimeout(slideshow,1000);
 }
