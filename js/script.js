@@ -14,8 +14,8 @@ function initMap() {
     animation:google.maps.Animation.BOUNCE,
     title:"Salamanca, Spain"
   });
-  marker.addListenre('click',function(){
-    Infowindow.open(map,marker);
+  spainMarker.addListener('click',function(){
+    Infowindow.open(map,spainMarker);
   });
 }
 google.maps.event.addDomListener(window,'load',initMap);
