@@ -58,8 +58,8 @@
 #aboutme p {
   
    font-family: 'Inconsolata', monospace;
-  color:MidnightBlue
-    font-size: 20 px;
+  color:MidnightBlue;
+    font-size: 16 px;
 }
 /**************************************************************************RESUME.CSS**********************************************************************************************/
 #resume{
