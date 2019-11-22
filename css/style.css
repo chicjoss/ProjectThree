@@ -515,7 +515,7 @@ h1,  p{
 
 }
 #education, #experience, #skills {
-     font-family: 'Oswald', sans-serif
+     font-family: 'Oswald', sans-serif,arial;
      text-align: left;
 
 }
