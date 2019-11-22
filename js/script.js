@@ -2,7 +2,14 @@ var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 40.967070,  lng:-5.663658},
-    zoom: 18
+    zoom: 18,
+    mapTypeId:'roadmap',
+    mapTypeControl:true,
+    mapTypeControlOptions:{
+      style:google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+      mapTypeIds:['roadmap','satellite'],
+      position:google.maps.ControlPosition.TOP_CENTER
+    },
   });
 	
   var spainMarker = new google.maps.Marker({
