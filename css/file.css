@@ -141,7 +141,14 @@ font-family: 'Baskervville', serif;
      margin:25px;
 }
 /********************************************************************OTHER.CSS**********************************************************************************************/
-div#slideshow{
+#photos {
+  background-color:#E6E6FA;
+     background-size:cover;
+     text-align: left;
+     margin:25px;
+  }
+  
+  div#slideshow{
   max-width:100%;
   max-height:100%;
   margin:auto;
