@@ -3,7 +3,6 @@ function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 40.967070,  lng:-5.663658},
     zoom: 18
-  });
 	
   var spainMarker = new google.maps.Marker({
     map:map,
@@ -18,6 +17,7 @@ function initMap() {
     Infowindow.open(map,spainMarker);
   });
 }
+ });
 google.maps.event.addDomListener(window,'load',initMap);
 
 /*Added a Javascript slideshow for fun*/
