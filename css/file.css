@@ -63,7 +63,7 @@
 }
 /**************************************************************************RESUME.CSS**********************************************************************************************/
 #resume{
-  background-color:#E6E6FA;
+  background-color:#c0ccd6;
      background-size:cover;
      text-align: left;
      margin:25px;
@@ -132,7 +132,7 @@
   }
   /********************************************************************OTHER.CSS**********************************************************************************************/
 #vacation {
-  background-color:#F0F8FF;
+  background-color:#e3e3e3;
      background-size:cover;
      text-align: left;
      margin:25px;
@@ -186,7 +186,7 @@
                 }
 /********************************************************************OTHER.CSS**********************************************************************************************/
 #photos {
-  background-color:#E6E6FA;
+  background-color:#d4ebff;
      background-size:cover;
      text-align: left;
      margin:25px;
