@@ -3,24 +3,18 @@ function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 40.967070,  lng:-5.663658},
     zoom: 18
-	
-  var spainMarker = new google.maps.Marker({
-    map:map,
-    size:(5,5),
-    icon:{size: new google.maps.Size(50,50),scaledSize: new google.maps.Size(50,50),url:"media/pin.png"},
-    draggable:true,
-    position:{lat:40.967070, lng:-5.663658},
-    animation:google.maps.Animation.BOUNCE,
-    title:"Salamanca, Spain"
   });
-  spainMarker.addListener('click',function(){
-    Infowindow.open(map,spainMarker);
+	
+var image = "photos/pin.png";
+  var spainMarker = new google.maps.Marker({
+    position: {lat: 40.960607,len: -5.665813},
+    map: map,
+    icon: image
   });
 }
- });
-google.maps.event.addDomListener(window,'load',initMap);
+window.addEventListener('onload',initMap);
 
-/*Added a Javascript slideshow for fun*/
+/*Added a Javascript slideshow for fun/*/
 var start=0;
 slideshow();
 function slideshow(){
