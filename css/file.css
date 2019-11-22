@@ -50,10 +50,16 @@
         font-weight: bold;
   text-decoration: none;
 }
-h1,  p{
-  font-family: "Courier New", Courier;
-
+#aboutme h1{
+ font-family: 'Inconsolata', monospace;
+  color:#909499
+    font-size: 40 px;
 }
+#aboutme p {
+  
+   font-family: 'Inconsolata', monospace;
+  color:MidnightBlue
+    font-size: 20 px;
 #map {
         width: 900px;
         height: 500px;
