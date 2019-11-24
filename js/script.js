@@ -37,5 +37,5 @@ function slideshow(){
   start++;
   if(start>grab_html_element.length){start=1}
   grab_html_element[start-1].style.display="block";
-  setTimeout(slideshow,4000);
+  setTimeout(slideshow,3000);
 }
