@@ -130,6 +130,16 @@ h1,p{
   text-align:left;
   margin:25px;
 }
+#vacation h1 {
+  font-family: 'Playfair Display', serif;
+  color:	#483D8B;
+  font-size: 40px;
+}
+#vacation p {
+  font-family: 'Lora', serif;
+  color:	#708090;
+   font-size: 20px;
+}
 #map{
   width: 100%;
   height: 500px;
