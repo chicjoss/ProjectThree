@@ -11,7 +11,6 @@ function initMap() {
       position:google.maps.ControlPosition.TOP_CENTER
     },
   });
-	
   var spainMarker = new google.maps.Marker({
     map:map,
     icon:{size:new google.maps.Size(50,50),scaledSize:new google.maps.Size(50,50),url:"media/pin.png"},
@@ -26,7 +25,6 @@ spainMarker.addListener('click',function(){
 });
 }
 window.addEventListener('onload',initMap);
-
 /*Added a Javascript slideshow for fun/*/
 var start=0;
 slideshow();
@@ -39,7 +37,5 @@ function slideshow(){
   start++;
   if(start>grab_html_element.length){start=1}
   grab_html_element[start-1].style.display="block";
-  setTimeout(slideshow,1000);
+  setTimeout(slideshow,4000);
 }
-/*InfoWindow*/
-
