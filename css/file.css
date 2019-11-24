@@ -116,7 +116,7 @@ body{
         font-weight:bold;
   text-decoration:none;
 }*/
-h1,p{
+#resume h1,p{
  font-family: 'Oswald',sans-serif,Arial;
 }
 #education,#experience,#skills{
