@@ -1,3 +1,4 @@
+/*SLIDER https://www.w3schools.com/howto/howto_js_slideshow.asp HELPED WITH THE JS SLIDER /*/
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
